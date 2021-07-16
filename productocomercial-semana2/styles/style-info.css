@@ -1,0 +1,47 @@
+.info{
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.icon{
+    margin: 1rem;
+    width: 100%;
+    max-width: 64px;
+    align-self: center;
+    justify-self: center;
+}
+
+.text{
+    margin: 1rem;
+}
+
+.contenido-p{
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .contenido{
+        flex-direction: column-reverse;
+    }
+
+    .icon{
+        margin-bottom: 1.4rem;
+        margin-top: 0.2rem;
+    }
+    
+    .text{
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .contenido-title{
+        text-align: center;
+    }
+}

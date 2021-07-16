@@ -1,0 +1,56 @@
+.product-catalog{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.product{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: calc(100% / 3);
+    margin: 0.5em;
+    align-items: center;
+}
+
+.product-title{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.product-info button{
+    padding: 8px 16px;
+    margin: 10px 0;
+}
+
+.product-info ul li{
+    list-style: none;
+}
+
+.product-title,
+.product-info{
+    padding: 0.4rem;
+}
+
+@media screen and (max-width: 768px){
+    .product-catalog{
+        flex-direction: column;
+    }
+
+    .product{
+        margin: 20px auto;
+        max-width: 300px;
+        width: 100%;
+    }
+}
