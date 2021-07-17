@@ -34,13 +34,19 @@
     margin: 10px 0;
 }
 
-.product-info ul li{
-    list-style: none;
+.product-info ul{
+    padding: 1.5em;
+    text-align: justify;
 }
 
 .product-title,
 .product-info{
     padding: 0.4rem;
+}
+
+.product-title{
+    word-break: break-all;
+    padding: 0.2em;
 }
 
 @media screen and (max-width: 768px){

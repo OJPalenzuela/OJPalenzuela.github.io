@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "n m";
+}
+
+#main-doc{
+    grid-area: m;
+    padding: 0.5em;
+}
+
+.main-section{
+    padding: 1em;
+    margin: 1em;
+}
+
+.main-section header{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+#navbar{
+    grid-area: n;
+    position: fixed;
+    min-width: 20%;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+.div-code{
+    background-color: rgb(206, 206, 206);
+    padding: 15px 10px;
+    margin: 10px auto;
+}
+
+code{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(36, 59, 46);
+}
+
+#navbar header h1{
+    text-align: center;
+    padding: 12px;
+}
+
+#nav-ol li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+#nav-ol li:first-child{
+    border-top: 1px solid black ;
+}
+
+#nav-ol li a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        grid-template-columns: 1fr;
+        grid-template-areas: "n"
+                            "m";
+    }
+    #navbar{
+        position:initial;
+        grid-area: n;
+    min-width: initial;
+    top: initial;
+    left:initial;
+    width: 100%;
+    height: 100%;
+    border-right: none;
+    border-color: none;
+    }
+}

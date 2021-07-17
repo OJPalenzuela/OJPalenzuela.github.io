@@ -27,6 +27,15 @@ body{
     
 }
 
+#header-img{
+
+    width: 100%;
+    max-width: 48px;
+    align-content: start;
+    justify-self: center;
+    
+}
+
 #home{
     display: flex;
     align-items: center;
@@ -147,6 +156,6 @@ section{
         
         padding: 6em 0px 0px 0px;
         
-        
+    ;
     }
 }
