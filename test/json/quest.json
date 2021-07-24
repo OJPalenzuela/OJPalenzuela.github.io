@@ -1,5 +1,4 @@
 {
-    "title": "hola",
     "preguntas": [
         {
             "descripcion": "¿Qué etiqueta HTML nos sirve para incluir archivos JavaScript?",
@@ -12,27 +11,24 @@
             "name": "etJS"
         },
         {
-            "descripcion": "esta seria la prgunta 2",
+            "descripcion": "¡Qué etiqueta es la semánticamente correcta para el contenido principal?",
             "opciones": [
-                "TEXTO1",
-                "TEXTO2",
-                "TEXTO3"
+                "main",
+                "section",
+                "header"
             ],
-            "respuesta": "TEXTO1",
+            "respuesta": "main",
             "name": "etJS"
         },
-
         {
-            "descripcion": "DESCRIPCION DEL TEXTO DE PRUEBA 3",
+            "descripcion": "¿Qué significa DRY?",
             "opciones": [
-                "TEXTO1",
-                "TEXTO2",
-                "TEXTO3"
+                "Don´t repeat yellow",
+                "Don´t repeat yourself",
+                "Don´t recicle year"
             ],
-            "respuesta": "TEXTO1",
+            "respuesta": "Don´t repeat yourself",
             "name": "etJS"
         }
-
-
     ]
 }
