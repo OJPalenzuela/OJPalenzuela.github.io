@@ -1,5 +1,5 @@
 {
-    "preguntas": [
+    "JavaScript": [
         {
             "type": "a",
             "descripcion": "¿Qué etiqueta HTML nos sirve para incluir archivos JavaScript?",
@@ -52,13 +52,112 @@
                 "getName",
                 "(name)",
                 "function"
-                
             ],
             "respuesta": [
                 "select_3",
                 "select_1",
                 "select_2",
                 "select_0"
+            ],
+            "name": "etJS"
+        }
+    ],
+    "CSS": [
+        {
+            "type": "a",
+            "descripcion": "¿Cuál es la propiedad CSS que controla el tamaño del texto?",
+            "opciones": [
+                "font-style",
+                "font-size",
+                "text-style"
+            ],
+            "respuesta": "font-size",
+            "name": "etJS"
+        },
+        {
+            "type": "a",
+            "descripcion": "¿Cómo se cambia el margen izquierdo de un elemento?",
+            "opciones": [
+                "margin:",
+                "indent:",
+                "margin-left:"
+            ],
+            "respuesta": "margin-left:",
+            "name": "etJS"
+        },
+        {
+            "type": "a",
+            "descripcion": "¿Cuál es la propiedad usada para cambiar el color de fondo?",
+            "opciones": [
+                "background-color:",
+                "color:",
+                "background-image:"
+            ],
+            "respuesta": "background-color:",
+            "name": "etJS"
+        }
+    ],
+    "HTML": [
+        {
+            "type": "a",
+            "descripcion": "¿Qué etiqueta es semánticamente correcta para el contenido principal?",
+            "opciones": [
+                "main",
+                "section",
+                "header"
+            ],
+            "respuesta": "main",
+            "name": "etJS"
+        },
+        {
+            "type": "a",
+            "descripcion": "¿Cuál de estas etiquetas se usa para añadir una imagen a HTML5?",
+            "opciones": [
+                "figcaption",
+                "figure",
+                "img"
+            ],
+            "respuesta": "img",
+            "name": "etJS"
+        },
+        {
+            "type": "a",
+            "descripcion": "¿Cuál de estás etiquetas se usa para la listas no ordenadas?",
+            "opciones": [
+                "ol",
+                "ul",
+                "li"
+            ],
+            "respuesta": "ul",
+            "name": "etJS"
+        },
+        {
+            "type": "a",
+            "descripcion": "¿Qué etiqueta se usa para los enlaces?",
+            "opciones": [
+                "a",
+                "link",
+                "src"
+            ],
+            "respuesta": "a",
+            "name": "etJS"
+        },
+        {
+            "type": "b",
+            "descripcion": "Organiza la estructura de un documento HTML5",
+            "opciones": [
+                "< body >< / body >",
+                "< / html>",
+                "< !DOCTYPE html >",
+                "< html >",
+                "< head >< / head> "
+            ],
+            "respuesta": [
+                "select_2",
+                "select_3",
+                "select_4",
+                "select_0",
+                "select_1"
             ],
             "name": "etJS"
         }
